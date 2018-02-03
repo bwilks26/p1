@@ -8,11 +8,19 @@ body {
 
 .profile-picture {
 	width: 75vw;
-	height: 40vh;
+	height: 50vh;
 	display: block;
 	margin: auto;
 }
 
 .introduction {
 	margin: 10vw;
+}
+
+.quote {
+	text-align: center;
+	color: #aaa;
+	font-weight: bolder;
+	font-size: 24px;
+	padding: 5vw;
 }

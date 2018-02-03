@@ -67,7 +67,18 @@
 				<h2 class="text-center">Random Quote</h2>
 			</div>
 			<div class="row-fluid">
-				<blockquote>...</blockquote>
+				<blockquote class="quote">
+					<?php
+						$quotebank[] = "Believe you can and you're halfway there. - Theodore Roosevelt";
+						$quotebank[] = "Keep your eyes on the stars and your feet on the ground. - Theodore Roosevelt";
+						$quotebank[] = "Nobody cares how much you know, until they know how much you care. - Theodore Roosevelt";
+						
+						srand ((double) microtime() * 1000000);
+						$random_num = rand(0, count($quotebank) - 1);
+
+						echo ($quotebank[$random_num]);
+					?>
+				</blockquote>
 			</div>
 		</div>
 	</body>
