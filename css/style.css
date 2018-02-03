@@ -1,0 +1,18 @@
+body {
+	color: #333;
+}
+
+.name {
+	padding: 10vw;
+}
+
+.profile-picture {
+	width: 75vw;
+	height: 40vh;
+	display: block;
+	margin: auto;
+}
+
+.introduction {
+	margin: 10vw;
+}
